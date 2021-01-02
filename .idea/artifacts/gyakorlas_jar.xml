@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gyakorlas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gyakorlas_jar</output-path>
+    <root id="archive" name="gyakorlas.jar">
+      <element id="module-output" name="gyakorlas" />
+    </root>
+  </artifact>
+</component>
