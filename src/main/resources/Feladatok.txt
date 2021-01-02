@@ -1,0 +1,16 @@
+A feladatok mindegyikéhez írj egy Junit tesztet is!
+
+1.:
+Írj egy olyan függvényt ami fogad egy beérkező Stringet és a függvény visszatérési értéke boolean.
+Feladat hogy ellenőriztesd le hogy a beérkező paraméter palindróma-e?
+(palindróma: ami ugyan azt a szót adja vissza akár hátulról nézve vizsgáljuk, akár előről. "rétipipitér")
+
+2.:
+Peti egy titkos üzenetet akar küldeni Julinak. Peti kitalálta hogy az üzenet amit küld az visszafejthető ha a karaktereknek
+a helyzetét eltolja visszafele juli 5 helyiértékkel. Ha az első 5 karakter az abc-ben akkor az utolsó 5 értékre fog kerülni.
+A kódban amikor space található akkor azt egy $ jel jelzi. A kódot úgy írd meg hogy caseInsensitive legyen (mindegy hogy kis és nagybetű)
+
+3.:
+Írj egy olyan függvényt ami bekér egy int paramétert és a visszatérési értéke is int legyen.
+A függvény a számjegyeinek a fordítottját adja vissza hogy a beérkező számnak.
+A beérkező számot NEM alakíthatod át Stringgé, mivel nem String műveletről van itt szó.
