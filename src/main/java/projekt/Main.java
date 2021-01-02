@@ -1,3 +1,6 @@
+package projekt;
+
+import projekt.Gyuri.Munka;
 
 public class Main {
 
@@ -16,8 +19,12 @@ public class Main {
         //gyakoroljuk a tesztelést is. Tehát mindíg mikor megírsz egy függvényt akkor írj meg hozzá egy tesztelést is: Junit
 
 
+        Munka gyuri=new Munka();
+        gyuri.testfgv();
 
 
 
     }
+
+
 }

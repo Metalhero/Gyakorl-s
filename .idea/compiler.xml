@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gyakorlas" />
         <module name="Gyakorlss" />
+        <module name="Gyakorlas" />
+        <module name="gyakorlas" />
       </profile>
     </annotationProcessing>
   </component>
