@@ -27,6 +27,20 @@ public class Munka implements Runnable {
         System.out.println("Set legfőbb tulajdonsága hogy egy értéket csak egyszer vehet fel, Tehát nem tartalmazhat duplikációt");
     }
 
+    public boolean palindróma(String input){
+        String first="";
+        String secound="";
+        for (int i = 0; i < input.length(); i++) {
+            first+=input.charAt(i);
+            secound+=input.charAt(input.length()-(i+1));
+        }
+
+        if (first.equals(secound))
+            return true;
+
+        return false;
+    }
+
 
     @Override
     public void run() {

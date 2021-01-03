@@ -36,6 +36,8 @@ public class Main {
         //setÉsComparator(bulisz);
         //writeObject(bulisz);
 
+        System.out.println(gyuri.palindróma("rétipipité"));
+
 
     }
 
