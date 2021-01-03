@@ -1,5 +1,6 @@
 package projekt;
 
+import projekt.Bulisz.BuliszMunka;
 import projekt.Fallen.Gyakorlas;
 import projekt.Gyuri.Munka;
 import projekt.Dezso.TestDezso;
@@ -25,6 +26,8 @@ public class Main {
         gyuri.testfgv();
         TestDezso dezso= new TestDezso();
         Gyakorlas fallen = new Gyakorlas();
+        BuliszMunka bulisz=new BuliszMunka();
+
 
 
 
