@@ -31,11 +31,24 @@ public class Main {
         TestDezso dezso= new TestDezso();
         Gyakorlas fallen = new Gyakorlas();
         BuliszMunka bulisz=new BuliszMunka();
-        //bulisz.answers();
 
-        //gyuri.answers();
-        //System.out.println("próba");
         //System.out.println(factorial((byte) 6));
+        //setÉsComparator(bulisz);
+        //writeObject(bulisz);
+
+
+    }
+
+    private static void writeObject(BuliszMunka bulisz) {
+        try(ObjectOutputStream objout= new ObjectOutputStream(new FileOutputStream("oubjekt.txt"))){
+            objout.writeObject(bulisz);
+            objout.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void setÉsComparator(BuliszMunka bulisz) {
         BuliszMunka b2=new BuliszMunka();
         BuliszMunka b3=new BuliszMunka();
 
@@ -45,9 +58,8 @@ public class Main {
         s.add(b3);
 
         System.out.println(s);
-
-
     }
+
     public static byte factorial(byte be){
         byte result=be;
         if(be==1) return 1;
