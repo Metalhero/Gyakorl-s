@@ -28,16 +28,9 @@ public class Munka implements Runnable {
     }
 
     public boolean palindróma(String input){
-        String first="";
-        String secound="";
-        for (int i = 0; i < input.length(); i++) {
-            first+=input.charAt(i);
-            secound+=input.charAt(input.length()-(i+1));
-        }
-
-        if (first.equals(secound))
+        StringBuilder sb=new StringBuilder(input.toLowerCase());
+        if (sb.reverse().equals(input.toLowerCase()))
             return true;
-
         return false;
     }
 

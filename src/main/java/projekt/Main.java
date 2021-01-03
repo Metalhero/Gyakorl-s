@@ -36,7 +36,7 @@ public class Main {
         //setÉsComparator(bulisz);
         //writeObject(bulisz);
 
-        System.out.println(gyuri.palindróma("rétipipité"));
+        System.out.println(gyuri.palindróma("rétipipitér"));
 
 
         System.out.println(BuliszMunka.palindroma("Görög"));
@@ -52,7 +52,7 @@ public class Main {
     }
 
     private static void setÉsComparator(BuliszMunka bulisz) {
-      /*  BuliszMunka b2=new BuliszMunka();
+        BuliszMunka b2=new BuliszMunka();
         BuliszMunka b3=new BuliszMunka();
 
         Set<BuliszMunka> s=new LinkedHashSet<>();
@@ -67,10 +67,7 @@ public class Main {
         byte result=be;
         if(be==1) return 1;
         result*=factorial((byte) (be-1));
-        return result;*/
-
-        TestDezso dezso1 = new TestDezso();
-        System.out.println(dezso1.palindrome("apad"));
+        return result;
     }
 
 }
