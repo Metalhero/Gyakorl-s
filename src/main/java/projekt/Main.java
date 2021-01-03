@@ -30,6 +30,7 @@ public class Main {
         Gyakorlas fallen = new Gyakorlas();
         BuliszMunka bulisz=new BuliszMunka();
         bulisz.answers();
+        dezso.answers();
 
         gyuri.answers();
 
