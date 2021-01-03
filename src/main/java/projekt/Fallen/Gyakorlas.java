@@ -7,15 +7,15 @@ public class Gyakorlas {
                 "A legtöbb objektumorientált nyelv osztály alapú, azaz az objektumok osztályok példányai, és típusuk az osztály." +
                 "Egységbezárás: Az egységbe zárás azt fejezi ki, hogy az összetartozó adatok és függvények, eljárások együtt vannak, egy egységbe tartoznak." +
                 "Öröklődés: Majdnem minden osztály alapú nyelv támogatja az öröklődést,Több programozási nyelv is megengedi a többszörös öröklődést, azonban a felülírással együtt ez a káró problémához vezet" +
-                "Az absztrakt osztályok nem példányosíthatók közvetlenül, hanem csak közvetve, konkrét leszármazottaik által." +
+                "Sokoldalúság" +
                 "második válasz: Kivételkezelés: elkapás vagy továbbengedés." +
-                "harmadik válasz: Filereader,FileWriter, InputstreamReader,OutputStreamReader " +
+                "harmadik válasz: Filereader,FileWriter, FileOutputStream,ObjectOutputStream " +
                 "3. a. válasz: Az objektumok írását és olvasását nevezzük szerializációnak." +
                 "3. b. válasz: Visszaállítás" +
                 "negyedik válasz: Runnable és Thread" +
-                "ötödik válasz: A rekurziónál nem kell egyik ciklust sem használnod, ami a Java nyelvben elérhető, hisz az utasítások ismételt végrehajtását azzal is elérheted, hogy egy metódust önmagából újra meghívsz" +
-                "hatodik válasz: Az arraylist gyorsabb a keresésnél, a linkedlist össze vissza ugrál." +
-                "hetedik válasz: A Set egy speciális Collection, amely nem tartalmaz duplikált elemeket");
+                "ötödik válasz: saját magát hívja meg" +
+                "hatodik válasz: Az arraylist a memóriánál egymás után állnak,gyorsabb a keresésnél, a linkedlist a memónál külön vannak így,össze vissza ugrál." +
+                "hetedik válasz: A Setben minden elem csak egyszer található meg benne");
 
     }
 }

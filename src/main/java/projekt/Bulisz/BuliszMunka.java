@@ -1,8 +1,9 @@
 package projekt.Bulisz;
 
 import java.io.Serializable;
+import java.util.Locale;
 
-public class BuliszMunka implements Runnable,Comparable {
+public class BuliszMunka implements Serializable, Runnable, Comparable {
     public void answers(){
         System.out.println("válasz1:A program az objektum adatain dolgozik. Az objektum zárt (encapsulation), az objektum működése annak belügye. \n" +
                 "Az OOP másik fő jellemzője a polimorfizmus. Az objektum megszólításához képest különböző képpen válaszol. \n" +
@@ -32,4 +33,17 @@ public class BuliszMunka implements Runnable,Comparable {
     public String toString() {
         return String.valueOf(this.hashCode());
     }
+
+    public static boolean palindroma (String text){
+        String result="";
+        for (int i = text.length()-1; i >= 0; i--) {
+            result+=text.charAt(i);
+        }
+        if(result.toLowerCase().equals(text.toLowerCase())){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
