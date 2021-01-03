@@ -32,6 +32,7 @@ public class Main {
         bulisz.answers();
 
         gyuri.answers();
+        System.out.println("próba");
 
 
 
