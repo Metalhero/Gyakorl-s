@@ -34,5 +34,22 @@ public class TestDezso {
 
     }
 
+    public String titkositott(String szoveg){
+        String titkositottSzoveg = "";
+
+        for (int i = 0; i <szoveg.length() ; i++) {
+            char atmeneti = szoveg.charAt(i);
+            int eredetiKarakter = (int) atmeneti -5;
+            if ((eredetiKarakter+5) == 32){
+                eredetiKarakter = 36;
+            }
+            char kodoltKarakter =(char) eredetiKarakter;
+            titkositottSzoveg += kodoltKarakter;
+
+        }
+
+        return titkositottSzoveg;
+    }
+
 
 }

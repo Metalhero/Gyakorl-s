@@ -37,9 +37,12 @@ public class Main {
         //writeObject(bulisz);
 
         System.out.println(gyuri.palindróma("rétipipitér"));
-
+        System.out.println("-------------------------------------");
+        System.out.println(dezso.titkositott("a  "));
 
         System.out.println(BuliszMunka.palindroma("Görög"));
+        char csere = '$';
+        System.out.println((int) csere);
     }
 
     private static void writeObject(BuliszMunka bulisz) {
