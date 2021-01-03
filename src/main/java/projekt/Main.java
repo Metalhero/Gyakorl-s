@@ -27,6 +27,7 @@ public class Main {
         TestDezso dezso= new TestDezso();
         Gyakorlas fallen = new Gyakorlas();
         BuliszMunka bulisz=new BuliszMunka();
+        bulisz.answers();
 
 
 
