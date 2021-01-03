@@ -43,6 +43,8 @@ public class Main {
         System.out.println(BuliszMunka.palindroma("Görög"));
         char csere = '$';
         System.out.println((int) csere);
+
+        System.out.println(BuliszMunka.kod("f g h i j"));
     }
 
     private static void writeObject(BuliszMunka bulisz) {
