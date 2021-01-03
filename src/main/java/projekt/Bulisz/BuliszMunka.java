@@ -49,11 +49,20 @@ public class BuliszMunka implements Serializable, Runnable, Comparable {
     public static String kod(String text){
         String result="";
         for (int i = 0; i < text.length(); i++) {
-            if(text.equalsIgnoreCase(" ")) result+=(char)36;
+            if(text.charAt(i)==' ') result+="$";
             else result+=(char)((int)text.toLowerCase().charAt(i)-5);
-            System.out.println(result);
         }
         return result;
     }
+    public static String dekod(String text){
+        String result="";
+        for (int i = 0; i < text.length(); i++) {
+            if(text.charAt(i)=='$') result+=" ";
+            else result+=(char)((int)text.toLowerCase().charAt(i)+5);
+        }
+        return result;
+    }
+
+
 
 }

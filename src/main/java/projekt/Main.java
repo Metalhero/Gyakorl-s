@@ -44,7 +44,9 @@ public class Main {
         char csere = '$';
         System.out.println((int) csere);
 
-        System.out.println(BuliszMunka.kod("f g h i j"));
+        System.out.println(BuliszMunka.kod("őőőőőőő"));
+        System.out.println(BuliszMunka.dekod("ŌŌŌŌŌŌŌ"));
+        System.out.println((char)332);
     }
 
     private static void writeObject(BuliszMunka bulisz) {
