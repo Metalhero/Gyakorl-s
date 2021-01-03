@@ -52,7 +52,7 @@ public class Main {
     }
 
     private static void setÉsComparator(BuliszMunka bulisz) {
-        BuliszMunka b2=new BuliszMunka();
+      /*  BuliszMunka b2=new BuliszMunka();
         BuliszMunka b3=new BuliszMunka();
 
         Set<BuliszMunka> s=new LinkedHashSet<>();
@@ -67,7 +67,10 @@ public class Main {
         byte result=be;
         if(be==1) return 1;
         result*=factorial((byte) (be-1));
-        return result;
+        return result;*/
+
+        TestDezso dezso1 = new TestDezso();
+        System.out.println(dezso1.palindrome("apad"));
     }
 
 }

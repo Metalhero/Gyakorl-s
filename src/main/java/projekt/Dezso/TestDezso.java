@@ -19,4 +19,20 @@ public class TestDezso {
         //7. feladat
         System.out.println("1 elem csak egyszer szerepelhet");
     }
+
+    public boolean palindrome (String szoveg){
+        String forditott ="";
+        for (int i = szoveg.length() - 1; i <szoveg.length() && i>=0 ; i--) {
+            forditott +=szoveg.charAt(i);
+
+        }
+        if ((szoveg.compareTo(forditott)) == 0){
+            return true;
+        }else
+            return false;
+
+
+    }
+
+
 }
