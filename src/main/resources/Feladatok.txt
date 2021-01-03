@@ -7,7 +7,7 @@ Feladat hogy ellenőriztesd le hogy a beérkező paraméter palindróma-e?
 
 2.:
 Peti egy titkos üzenetet akar küldeni Julinak. Peti kitalálta hogy az üzenet amit küld az visszafejthető ha a karaktereknek
-a helyzetét eltolja visszafele juli 5 helyiértékkel. Ha az első 5 karakter az abc-ben akkor az utolsó 5 értékre fog kerülni.
+a helyzetét eltolja visszafele 5 helyiértékkel. Ha az első 5 karakter az abc-ben akkor az utolsó 5 értékre fog kerülni.
 A kódban amikor space található akkor azt egy $ jel jelzi. A kódot úgy írd meg hogy caseInsensitive legyen (mindegy hogy kis és nagybetű)
 
 3.:

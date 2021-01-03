@@ -40,11 +40,10 @@ public class TestDezso {
         for (int i = 0; i <szoveg.length() ; i++) {
             char atmeneti = szoveg.charAt(i);
             int eredetiKarakter = (int) atmeneti -5;
-            if ((eredetiKarakter+5) == 32){
+            if (eredetiKarakter==(int)' '){
                 eredetiKarakter = 36;
             }
-            char kodoltKarakter =(char) eredetiKarakter;
-            titkositottSzoveg += kodoltKarakter;
+            titkositottSzoveg += (char) eredetiKarakter;
 
         }
 

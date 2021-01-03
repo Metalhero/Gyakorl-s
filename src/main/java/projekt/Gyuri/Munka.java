@@ -34,6 +34,19 @@ public class Munka implements Runnable {
         return false;
     }
 
+    public String kod(String input){
+        String result="";
+        char[] charray=input.toUpperCase().toCharArray();
+        for (char ch : charray) {
+            if (ch==' ') {
+                result += "$";
+                continue;
+            }
+                result += (char)((int)ch-5);
+        }
+        return result;
+    }
+
 
     @Override
     public void run() {

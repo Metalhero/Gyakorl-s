@@ -36,7 +36,7 @@ public class Main {
         //setÉsComparator(bulisz);
         //writeObject(bulisz);
 
-        System.out.println(gyuri.palindróma("rétipipitér"));
+        System.out.println(gyuri.kod("A k n f"));
         System.out.println("-------------------------------------");
         System.out.println(dezso.titkositott("a  "));
 
