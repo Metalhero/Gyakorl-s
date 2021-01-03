@@ -1,5 +1,7 @@
 package projekt.Gyuri;
 
+import java.util.Scanner;
+
 public class Munka implements Runnable {
 
 
@@ -45,6 +47,17 @@ public class Munka implements Runnable {
                 result += (char)((int)ch-5);
         }
         return result;
+    }
+
+    public int reverseNumber(int number){
+        int rev = 0, r, a;
+        a=number;
+        while (number>0){
+            r=number%10;
+            rev=rev*10+r;
+            number=number/10;
+        }
+        return rev;
     }
 
 

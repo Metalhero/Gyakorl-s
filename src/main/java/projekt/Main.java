@@ -47,6 +47,8 @@ public class Main {
         System.out.println(BuliszMunka.kod("őőőőőőő"));
         System.out.println(BuliszMunka.dekod("ŌŌŌŌŌŌŌ"));
         System.out.println((char)332);
+
+        System.out.println(gyuri.reverseNumber(321));
     }
 
     private static void writeObject(BuliszMunka bulisz) {
