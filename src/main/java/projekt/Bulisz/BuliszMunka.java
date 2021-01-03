@@ -1,6 +1,8 @@
 package projekt.Bulisz;
 
-public class BuliszMunka {
+import java.io.Serializable;
+
+public class BuliszMunka implements Runnable,Comparable {
     public void answers(){
         System.out.println("válasz1:A program az objektum adatain dolgozik. Az objektum zárt (encapsulation), az objektum működése annak belügye. \n" +
                 "Az OOP másik fő jellemzője a polimorfizmus. Az objektum megszólításához képest különböző képpen válaszol. \n" +
@@ -14,5 +16,20 @@ public class BuliszMunka {
         System.out.println("válasz6: A csak egy Interface, példányt nem lehet létrehozni belőle.\n" +
                 "példányai lehetnek ArrayList és LinkedList .. .");
         System.out.println("válasz7: Minden eleme csak egyszer létezhet, Iterálható, fajtája a HashSet, TreeSet(sorbarendezett)");
+    }
+
+    @Override
+    public void run() {
+        answers();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return this.hashCode()-o.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.hashCode());
     }
 }

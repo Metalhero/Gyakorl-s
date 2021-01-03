@@ -1,6 +1,7 @@
 package projekt.Gyuri;
 
-public class Munka {
+public class Munka implements Runnable {
+
 
     public String testfgv(){
         System.out.println("test");
@@ -27,6 +28,8 @@ public class Munka {
     }
 
 
-
-
+    @Override
+    public void run() {
+        answers();
+    }
 }

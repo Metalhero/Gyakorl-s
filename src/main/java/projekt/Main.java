@@ -5,8 +5,10 @@ import projekt.Fallen.Gyakorlas;
 import projekt.Gyuri.Munka;
 import projekt.Dezso.TestDezso;
 
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
+import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Main {
 
@@ -29,18 +31,28 @@ public class Main {
         TestDezso dezso= new TestDezso();
         Gyakorlas fallen = new Gyakorlas();
         BuliszMunka bulisz=new BuliszMunka();
-        bulisz.answers();
-        dezso.answers();
+        //bulisz.answers();
 
-        gyuri.answers();
+        //gyuri.answers();
+        //System.out.println("próba");
+        //System.out.println(factorial((byte) 6));
+        BuliszMunka b2=new BuliszMunka();
+        BuliszMunka b3=new BuliszMunka();
 
+        Set<BuliszMunka> s=new LinkedHashSet<>();
+        s.add(bulisz);
+        s.add(b2);
+        s.add(b3);
 
-
-
-
+        System.out.println(s);
 
 
     }
-
+    public static byte factorial(byte be){
+        byte result=be;
+        if(be==1) return 1;
+        result*=factorial((byte) (be-1));
+        return result;
+    }
 
 }
