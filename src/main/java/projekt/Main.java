@@ -23,12 +23,12 @@ public class Main {
 
 
         Munka gyuri=new Munka();
-        gyuri.testfgv();
         TestDezso dezso= new TestDezso();
         Gyakorlas fallen = new Gyakorlas();
         BuliszMunka bulisz=new BuliszMunka();
         bulisz.answers();
 
+        gyuri.answers();
 
 
 
