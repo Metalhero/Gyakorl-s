@@ -3,6 +3,9 @@ package projekt;
 import projekt.Gyuri.Munka;
 import projekt.Dezso.TestDezso;
 
+import java.io.IOException;
+import java.io.OutputStream;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,6 +26,8 @@ public class Main {
         Munka gyuri=new Munka();
         gyuri.testfgv();
         TestDezso dezso= new TestDezso();
+
+
 
 
 
