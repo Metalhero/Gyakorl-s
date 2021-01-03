@@ -1,6 +1,7 @@
 package projekt;
 
 import projekt.Gyuri.Munka;
+import projekt.Dezso.TestDezso;
 
 public class Main {
 
@@ -21,6 +22,8 @@ public class Main {
 
         Munka gyuri=new Munka();
         gyuri.testfgv();
+        TestDezso dezso= new TestDezso();
+
 
 
 
