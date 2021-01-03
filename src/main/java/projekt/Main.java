@@ -39,6 +39,7 @@ public class Main {
         System.out.println(gyuri.palindróma("rétipipité"));
 
 
+        System.out.println(BuliszMunka.palindroma("Görög"));
     }
 
     private static void writeObject(BuliszMunka bulisz) {
