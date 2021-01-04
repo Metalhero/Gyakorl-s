@@ -35,6 +35,7 @@ public class Elsonap {
         //System.out.println(factorial((byte) 6));
         //setÉsComparator(bulisz);
         //writeObject(bulisz);
+        System.out.println(gyuri.palindróma("rétipipitér"));
 
         System.out.println(gyuri.kod("A k n f"));
         System.out.println("-------------------------------------");
@@ -43,9 +44,6 @@ public class Elsonap {
         System.out.println(BuliszMunka.palindroma("Görög"));
         char csere = '$';
         System.out.println((int) csere);
-
-        System.out.println(BuliszMunka.kod("őőőőőőő"));
-        System.out.println(BuliszMunka.dekod("ŌŌŌŌŌŌŌ"));
         System.out.println((char)332);
 
         System.out.println(gyuri.reverseNumber(321));

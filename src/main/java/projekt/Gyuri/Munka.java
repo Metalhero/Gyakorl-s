@@ -4,10 +4,6 @@ package projekt.Gyuri;
 public class Munka implements Runnable {
 
 
-    public String testfgv(){
-        System.out.println("test");
-        return "test";
-    }
 
     public void answers(){
         System.out.println("1.: Az OOP mint \"Objektum Orientált Programozás\" 4 fő elemből áll:\n " +
@@ -29,8 +25,9 @@ public class Munka implements Runnable {
     }
 
     public boolean palindróma(String input){
-        StringBuilder sb=new StringBuilder(input.toLowerCase());
-        if (sb.reverse().equals(input.toLowerCase()))
+        StringBuilder sb=new StringBuilder(input.trim().toLowerCase());
+        String reverseWord=sb.reverse().toString();
+        if (reverseWord.equals(input.trim().toLowerCase()))
             return true;
         return false;
     }
@@ -49,8 +46,7 @@ public class Munka implements Runnable {
     }
 
     public int reverseNumber(int number){
-        int rev = 0, r, a;
-        a=number;
+        int rev = 0, r;
         while (number>0){
             r=number%10;
             rev=rev*10+r;
