@@ -1,6 +1,5 @@
 package projekt.Gyuri;
 
-import java.util.Scanner;
 
 public class Munka implements Runnable {
 
