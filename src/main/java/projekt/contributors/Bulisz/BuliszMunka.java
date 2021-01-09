@@ -1,7 +1,6 @@
-package projekt.Bulisz;
+package projekt.contributors.Bulisz;
 
 import java.io.Serializable;
-import java.util.Locale;
 
 public class BuliszMunka implements Serializable, Runnable, Comparable {
     public void answers(){

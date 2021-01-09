@@ -1,0 +1,26 @@
+Kérdések:
+- JDBC fő paraméterei (hozz létre egy kapcsolatot)
+- Jellemezd a statementek fajtáit (3).
+- Ha JDBC keresztül egy tábla tartalmát lekérjük akkor az milyen adattípusban tároljuk a programunkban?
+- Egy fájl tartalmazhat több osztályt? Mi ilyenkor amit figyelembe kell tartani láthatóságban?
+- Egy osztály lehet protected?- Mit jelent ha egy változó FINAL, mit jelent ha egy függvény FINAL és mit jelent hogyha egy osztályra írjuk azt hogy FINAL?
+- Mit takar ha egy osztály abstract? Mikor alkalmazzuk?
+- Hogyan lehet egy kódsorban tömböt(array) másolni? Magyarázd el a bemeneti paramétereket.
+- Mit jelent az a kifejezés hogy shiftelés?
+- Minek a mozaikszava a JVM?
+- Mi a különbség a prefix és a postfix ++ operátor között?
+- sorold fel az összes primitív típust és így egy példát mindegyikre.
+- SQL
+    - Mit jelent a CRUD kifejezés?
+    - Készíts egy lekérdezést egy adott táblából
+    - Szúrj be egy rekordot egy táblába
+    - Írd felül az egyik értéket
+    - Törölj ki egy sort
+    - törölj ki egy értéket
+- Minek a mozaikszava a HTML?
+- A HTML az egy programnyelv?
+- Mit készítesz javaEE segítségével?
+
+
+Feladat:
+- oldjátok meg az egyik OKJ feladatot hogy ismételjétek az IO dolgokat.

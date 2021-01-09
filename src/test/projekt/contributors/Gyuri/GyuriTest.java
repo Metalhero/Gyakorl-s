@@ -1,6 +1,7 @@
-package projekt.Gyuri;
+package projekt.contributors.Gyuri;
 
 import org.junit.jupiter.api.Test;
+import projekt.contributors.Gyuri.archive.Munka;
 
 import static org.junit.jupiter.api.Assertions.*;
 

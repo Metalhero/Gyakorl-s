@@ -1,14 +1,12 @@
 package projekt;
 
-import projekt.Bulisz.BuliszMunka;
-import projekt.Fallen.Gyakorlas;
-import projekt.Gyuri.Munka;
-import projekt.Dezso.TestDezso;
+import projekt.contributors.Bulisz.BuliszMunka;
+import projekt.contributors.Fallen.Gyakorlas;
+import projekt.contributors.Gyuri.archive.Munka;
+import projekt.contributors.Dezso.TestDezso;
 
 import java.io.*;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class Elsonap {
 

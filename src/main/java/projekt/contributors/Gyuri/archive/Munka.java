@@ -1,4 +1,4 @@
-package projekt.Gyuri;
+package projekt.contributors.Gyuri.archive;
 
 
 public class Munka implements Runnable {

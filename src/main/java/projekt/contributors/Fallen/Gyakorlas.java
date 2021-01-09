@@ -1,4 +1,4 @@
-package projekt.Fallen;
+package projekt.contributors.Fallen;
 
 
 public class Gyakorlas {

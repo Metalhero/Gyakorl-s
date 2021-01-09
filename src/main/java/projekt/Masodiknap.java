@@ -1,13 +1,7 @@
 package projekt;
 
 
-import projekt.Gyuri.Ponty;
-
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import projekt.contributors.Gyuri.Ponty;
 
 public class Masodiknap {
 

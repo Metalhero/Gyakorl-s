@@ -1,6 +1,4 @@
-package projekt.Dezso;
-
-import java.sql.SQLOutput;
+package projekt.contributors.Dezso;
 
 public class TestDezso {
     public void answers() {
