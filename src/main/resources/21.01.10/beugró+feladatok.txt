@@ -3,7 +3,8 @@ Kérdések:
 - Jellemezd a statementek fajtáit (3).
 - Ha JDBC keresztül egy tábla tartalmát lekérjük akkor az milyen adattípusban tároljuk a programunkban?
 - Egy fájl tartalmazhat több osztályt? Mi ilyenkor amit figyelembe kell tartani láthatóságban?
-- Egy osztály lehet protected?- Mit jelent ha egy változó FINAL, mit jelent ha egy függvény FINAL és mit jelent hogyha egy osztályra írjuk azt hogy FINAL?
+- Egy osztály lehet protected?
+- Mit jelent ha egy változó FINAL, mit jelent ha egy függvény FINAL és mit jelent hogyha egy osztályra írjuk azt hogy FINAL?
 - Mit takar ha egy osztály abstract? Mikor alkalmazzuk?
 - Hogyan lehet egy kódsorban tömböt(array) másolni? Magyarázd el a bemeneti paramétereket.
 - Mit jelent az a kifejezés hogy shiftelés?
@@ -12,7 +13,7 @@ Kérdések:
 - sorold fel az összes primitív típust és így egy példát mindegyikre.
 - SQL
     - Mit jelent a CRUD kifejezés?
-    - Készíts egy lekérdezést egy adott táblából
+    - Készíts egy lekérdezést egy adott táblából
     - Szúrj be egy rekordot egy táblába
     - Írd felül az egyik értéket
     - Törölj ki egy sort
